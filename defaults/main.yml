@@ -8,6 +8,8 @@ marathon_env_java_opts: '-Xmx512m'
 marathon_env_vars:
   - "JAVA_OPTS={{ marathon_env_java_opts }}"
 
+marathon_yum_package: marathon
+
 # command line flags:
 # https://mesosphere.github.io/marathon/docs/command-line-flags.html
 # Marathon reads files under /etc/marathon/conf and adds them to CLI
